@@ -1,0 +1,29 @@
+body {
+	background-color:#5ac3b0;
+}
+
+h1 {
+	font-family:'Century Schoolbook';
+	text-align:center;
+	font-size:48px;
+}
+
+
+input{
+	border: solid #cccccc;
+	border-width: 4px;
+}
+
+input:focus{
+	border: 4px solid black;
+}
+
+form{ 
+	padding: 20px;
+	border-radius:5px;
+	max-width: 800px;
+	margin: 0 auto;
+	border: 2px solid #c0c0c0;
+	position:relative;
+	background-color: #99ccff;
+}
