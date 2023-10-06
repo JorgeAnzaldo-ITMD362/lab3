@@ -15,17 +15,18 @@ p {
 	text-align: center;
 	font-size: 32px;
 	padding: 15px;
-	padding-bottom: 30px;
 }
 
 
 label {
 	font-family: 'Calibri';
-	font-size: 32px;
+	font-size: 64px;
 }
 
+
+
 ol{
-	padding:30px;
+	padding:75px;
 	position:relative;
 	margin: 0 auto;
 }
@@ -35,7 +36,6 @@ li{
 
 input{
 	border: solid #cccccc;
-	margin: 8px 0;
 	border-width: 4px;
 	border-radius: 12px;
 }
@@ -43,10 +43,9 @@ input{
 input[type="submit"]{
 	font-size:24px;
 }
-
 input[type="checkbox"]{
-	height:24px;
-	width:24px;
+	height:48px;
+	width:48px;
 }
 
 input:focus{
@@ -61,4 +60,19 @@ form{
 	border: 2px solid #c0c0c0;
 	position:relative;
 	background-color: #99ccff;
+}
+
+@media only screen and (max-width:800px){
+	h1{
+		font-size:32px;
+	}
+	form {
+		padding: 10px;
+	}
+	input{
+		background-color: #cccccc;
+	}
+}
+
+}
 }
