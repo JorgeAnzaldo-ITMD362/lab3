@@ -3,15 +3,50 @@ body {
 }
 
 h1 {
-	font-family:'Century Schoolbook';
-	text-align:center;
-	font-size:48px;
+	font-family: 'Century Schoolbook';
+	text-align: center;
+	font-size: 64px;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 3px gray;
+}
+
+p {
+	font-family: 'Trebuchet MS';
+	text-align: center;
+	font-size: 32px;
+	padding: 15px;
+	padding-bottom: 30px;
 }
 
 
+label {
+	font-family: 'Calibri';
+	font-size: 32px;
+}
+
+ol{
+	padding:30px;
+	position:relative;
+	margin: 0 auto;
+}
+li{
+	padding:25px;
+}
+
 input{
 	border: solid #cccccc;
+	margin: 8px 0;
 	border-width: 4px;
+	border-radius: 12px;
+}
+
+input[type="submit"]{
+	font-size:24px;
+}
+
+input[type="checkbox"]{
+	height:24px;
+	width:24px;
 }
 
 input:focus{
@@ -21,7 +56,7 @@ input:focus{
 form{ 
 	padding: 20px;
 	border-radius:5px;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	border: 2px solid #c0c0c0;
 	position:relative;
